@@ -1,0 +1,11 @@
+language: python
+addons:
+  apt:
+    packages:
+    - zip
+    - unzip
+python:
+  - "3.6"
+sudo: false
+script:
+  - "python setup.py test"
