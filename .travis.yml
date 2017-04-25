@@ -1,4 +1,9 @@
 language: python
+addons:
+  apt:
+    packages:
+    - zip
+    - unzip
 python:
   - "3.4"
 sudo: false
