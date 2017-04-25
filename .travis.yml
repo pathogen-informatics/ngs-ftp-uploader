@@ -5,7 +5,7 @@ addons:
     - zip
     - unzip
 python:
-  - "3.4"
+  - "3.6"
 sudo: false
 script:
   - "python setup.py test"
